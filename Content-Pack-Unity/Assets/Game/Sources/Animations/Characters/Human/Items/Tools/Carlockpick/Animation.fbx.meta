@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: f23790b07ac39de4fb50c867675754be
+timeCreated: 1467351478
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Camera
+    100004: Left_Arm
+    100006: Left_Foot
+    100008: Left_Hand
+    100010: Left_Hip
+    100012: Left_Hook
+    100014: Left_Leg
+    100016: Left_Shoulder
+    100018: Model
+    100020: Model_0
+    100022: Point
+    100024: Right_Arm
+    100026: Right_Foot
+    100028: Right_Hand
+    100030: Right_Hip
+    100032: Right_Hook
+    100034: Right_Leg
+    100036: Right_Shoulder
+    100038: Skeleton
+    100040: Skull
+    100042: Spine
+    400000: //RootNode
+    400002: Camera
+    400004: Left_Arm
+    400006: Left_Foot
+    400008: Left_Hand
+    400010: Left_Hip
+    400012: Left_Hook
+    400014: Left_Leg
+    400016: Left_Shoulder
+    400018: Model
+    400020: Model_0
+    400022: Point
+    400024: Right_Arm
+    400026: Right_Foot
+    400028: Right_Hand
+    400030: Right_Hip
+    400032: Right_Hook
+    400034: Right_Leg
+    400036: Right_Shoulder
+    400038: Skeleton
+    400040: Skull
+    400042: Spine
+    2300000: Model_0
+    3300000: Model_0
+    4300000: Model
+    4300002: Model_0
+    7400000: Default Take
+    7400002: Equip
+    7400004: Use
+    11100000: //RootNode
+    13700000: Model
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Equip
+      takeName: Equip
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Left_Hip
+        weight: 1
+      - path: Skeleton/Left_Hip/Left_Leg
+        weight: 1
+      - path: Skeleton/Left_Hip/Left_Leg/Left_Foot
+        weight: 1
+      - path: Skeleton/Right_Hip
+        weight: 1
+      - path: Skeleton/Right_Hip/Right_Leg
+        weight: 1
+      - path: Skeleton/Right_Hip/Right_Leg/Right_Foot
+        weight: 1
+      - path: Skeleton/Spine
+        weight: 1
+      - path: Skeleton/Spine/Left_Shoulder
+        weight: 1
+      - path: Skeleton/Spine/Left_Shoulder/Left_Arm
+        weight: 1
+      - path: Skeleton/Spine/Left_Shoulder/Left_Arm/Left_Hand
+        weight: 1
+      - path: Skeleton/Spine/Left_Shoulder/Left_Arm/Left_Hand/Left_Hook
+        weight: 1
+      - path: Skeleton/Spine/Right_Shoulder
+        weight: 1
+      - path: Skeleton/Spine/Right_Shoulder/Right_Arm
+        weight: 1
+      - path: Skeleton/Spine/Right_Shoulder/Right_Arm/Right_Hand
+        weight: 1
+      - path: Skeleton/Spine/Right_Shoulder/Right_Arm/Right_Hand/Right_Hook
+        weight: 1
+      - path: Skeleton/Spine/Skull
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Use
+      takeName: Use
+      firstFrame: 0
+      lastFrame: 39.0000038
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Left_Hip
+        weight: 1
+      - path: Skeleton/Left_Hip/Left_Leg
+        weight: 1
+      - path: Skeleton/Left_Hip/Left_Leg/Left_Foot
+        weight: 1
+      - path: Skeleton/Right_Hip
+        weight: 1
+      - path: Skeleton/Right_Hip/Right_Leg
+        weight: 1
+      - path: Skeleton/Right_Hip/Right_Leg/Right_Foot
+        weight: 1
+      - path: Skeleton/Spine
+        weight: 1
+      - path: Skeleton/Spine/Left_Shoulder
+        weight: 1
+      - path: Skeleton/Spine/Left_Shoulder/Left_Arm
+        weight: 1
+      - path: Skeleton/Spine/Left_Shoulder/Left_Arm/Left_Hand
+        weight: 1
+      - path: Skeleton/Spine/Left_Shoulder/Left_Arm/Left_Hand/Left_Hook
+        weight: 1
+      - path: Skeleton/Spine/Right_Shoulder
+        weight: 1
+      - path: Skeleton/Spine/Right_Shoulder/Right_Arm
+        weight: 1
+      - path: Skeleton/Spine/Right_Shoulder/Right_Arm/Right_Hand
+        weight: 1
+      - path: Skeleton/Spine/Right_Shoulder/Right_Arm/Right_Hand/Right_Hook
+        weight: 1
+      - path: Skeleton/Spine/Skull
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 45
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
